@@ -24,8 +24,8 @@ SSD1306 display(I2C, SDA, SCL); //display function
 WiFiServer server(80); //server port 80
 
 //Defining WiFi Credentials
-char ssid[] = "BELL909";
-char pass[] = "babeface";
+char ssid[] = "";
+char pass[] = "";
 
 const char* host = "api.coindesk.com"; // crypto currency API
 
